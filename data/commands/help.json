@@ -22,7 +22,7 @@
         "Account Management & Information",
         "",
         "You are able to change your own password and nickname by using the \"/account\" command. In",
-        "addition, VIPs have the ability to create aliases for their account through this command as well.",
+        "addition, VIPs have the ability to create aliases (max is 2 aliases) for their account through this command as well.",
         "",
         "If you would like to reset your statistics, or merge multiple accounts together, please create",
         "a topic in the \"Help Requests\" section on https://forum.sa-mp.nl/ where a Management member will",
@@ -32,7 +32,7 @@
     ],
 
     "Earning Money": [
-      "- Invest in properties - see /properties",
+      "- Invest in properties - see /properties", 
       "- Export vehicles - see /export",
       "- Win minigames - see /minigames",
       "- Complete delivery missions - see /deliver",
@@ -40,6 +40,13 @@
       "- Find the Bag of Cash",
       "- Take out a loan - see /borrow"
     ],
+   "Gang Stuff": [
+   "Usage: /gang [create/invite/join/kick/leave/members/settings/transactions",
+   "Usage: /gbank, /gwithdraw, /gbalance",
+   "",
+   "Wants to create a gang zone?",
+   "Feel free to ask our crew members, TO CONTACT THEM use @ (message)"
+   ],
     "Contacting Us": [
       "If you have questions or comments, you can use",
       "the following methods to contact the LVP staff:",
@@ -68,12 +75,15 @@
       "Vehicles are marked on your radar with small grey squares.",
       "To modify a vehicle drive to one of the garages or by using /tune.",
       "Vehicles can be spawned at all times by Crew and VIP members, but only during the cruise (/cruise car).",
-      "Players with 100 spray tags are able to spawn an Infernus (/inf), NRG-500 (/nrg), Elegy (/ele), Sultan (/sul), Turismo (/tur) or Vortex (/vor)"
+      "Players with 100 spray tags are able to spawn an Infernus (/inf), NRG-500 (/nrg), Elegy (/ele), Sultan (/sul), Turismo (/tur)",
+      "Players with 100 barrels unlocks car jump & color change ability, press horn key for car jump & f4 to change its color.",
+      "Players with 100 treasures unlocks gravity key, press f8 key to use it."
     ],
     "Banking": [
       "- Deposit your money - /bank [all | [amount]]",
       "- Withdraw money - /withdraw [all | [amount]]",
       "- Bank balance - /balance",
+      "- Send money - /givecash [id] [amount]",
       "- Borrow money - /borrow [amount]"
     ]
   }
