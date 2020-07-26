@@ -35,10 +35,9 @@ class JailCommands {
 
 
         if (Player(offenderId)->isNonPlayerCharacter() == true) {
-        SendClientMessage(playerId, Color::Error, "You can't jail an NPC.");
+        SendClientMessage(playerId, Color::Error, "You can't jail a NPC.");
         return 1;
         }
-
 
         new duration = JailController::DefaultPunishmentDuration;
         if (parameterCount >= 2)
