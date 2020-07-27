@@ -23,7 +23,7 @@
         "Account Management & Information",
         "",
         "You are able to change your own password and nickname by using the \"/account\" command. In",
-        "addition, VIPs have the ability to create aliases (max is 2 aliases) for their account through this command as well.",
+        "addition, VIPs can create up to two aliases for their account through this command as well.",
         "",
         "If you would like to reset your statistics, or merge multiple accounts together, please create",
         "a topic in the \"Help Requests\" section on https://forum.sa-mp.nl/ where a Management member will",
@@ -45,7 +45,7 @@
    "Usage: /gang [create/invite/join/kick/leave/members/settings/transactions",
    "Usage: /gbank, /gwithdraw, /gbalance",
    "",
-   "Wants to create a gang zone?",
+   "Want to create a gang zone?",
    "Feel free to ask our crew members, TO CONTACT THEM use @ (message)"
    ],
     "Contacting Us": [
