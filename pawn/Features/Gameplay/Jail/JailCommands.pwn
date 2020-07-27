@@ -35,7 +35,7 @@ class JailCommands {
 
 
         if (Player(offenderId)->isNonPlayerCharacter() == true) {
-        SendClientMessage(playerId, Color::Error, "You can't jail a NPC.");
+        SendClientMessage(playerId, Color::Error, "You can't jail an NPC.");
         return 1;
         }
 
