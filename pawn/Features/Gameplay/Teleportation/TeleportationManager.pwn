@@ -212,7 +212,7 @@ class TeleportationManager {
 
             if (LegacyIsPlayerWatchingFC(subjectId)) {
                 SendClientMessage(playerId, Color::Error, "This player is watching someone in the Fightclub.");
-                return false;
+                return true;
             }
 #endif
 
