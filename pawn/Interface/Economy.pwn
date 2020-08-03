@@ -123,7 +123,7 @@ GetEconomyValue(EconomyValueType: type, inputValue = 0) {
         case TeleportWithVehicle:               return 2500;
         case TeleportWithoutVehicle:            return 1000;
         case TuneCommand:                       return 1250;
-        case VehicleCrusherReward:              return 39000;
+        case VehicleCrusherReward:              return 42000;
         case VehicleExportReward:               return floatround(inputValue /* vehicle health [371-1000] */ * 45 * 1.45);
         case VehicleExportRewardOwnerShare:     return floatround(inputValue /* vehicle health [371-1000] */ * 45 * 1.45 * 0.1);
         case WantedLevelAward:                  return 4775 * inputValue /* wanted level stars */;
