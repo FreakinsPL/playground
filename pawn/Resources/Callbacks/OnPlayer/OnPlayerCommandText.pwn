@@ -1034,6 +1034,16 @@ public OnPlayerCommandText(playerid, cmdtext[]) {
             return 1;
         }
 
+        if (Player(subjectId)->isNonPlayerCharacter() == true) {
+        SendClientMessage(playerid, Color::Error, "You can't send money to an NPC.");
+        return 1;
+        }
+
+        if (subjectId == playerid) {
+        SendClientMessage(playerid, Color::Error, "You can't send money to yourself, silly!");
+        return 1;
+    }
+
         amount = strtok(cmdtext, idx);
         if (!strlen(amount)) {
             SendClientMessage(playerid, Color::Information, "Usage: /givecash [player] [amount]");
