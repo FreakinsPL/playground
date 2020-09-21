@@ -19,7 +19,7 @@
 #define STATUS_MINIGUN      14  // Converted
 #define STATUS_SHIPTDM      15  // TODO: Needs the ability to have team-specific skins
 #define STATUS_SAWNOFF      16  // Converted
-#define STATUS_WALKWEAPON   17
+#define STATUS_WALKWEAPON   17  // Converted
 #define STATUS_RANDOMDM     18
 #define STATUS_ISLANDDM     19  // TODO: Needs the ability to have team-specific skins
 
