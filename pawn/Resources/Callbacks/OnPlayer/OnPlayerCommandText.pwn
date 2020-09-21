@@ -584,18 +584,6 @@ public OnPlayerCommandText(playerid, cmdtext[]) {
         return 1;
     }
 
-    if(!strcmp(cmd, "/ww", true))
-    {
-        if(GetPlayerInterior(playerid) != 0)
-        {
-            ShowBoxForPlayer(playerid, "You cannot use this command while you're in an interior!");
-            return 1;
-        }
-
-        MiniGamesSignup(playerid, STATUS_WALKWEAPON);
-        return 1;
-    }
-
     if(!strcmp(cmd, "/random", true))
     {
         if(GetPlayerInterior(playerid) != 0)
