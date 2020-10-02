@@ -997,7 +997,7 @@ MyHelp:
     SendClientMessage(playerid, Color::White, "Usage: /my [deathmessage/playerinfo/properties/ramp/skin/spawnweapons/spawnmoney/stats]");
 
     if (Player(playerid)->isAdministrator() || UndercoverAdministrator(playerid)->isUndercoverAdministrator()) {
-        SendClientMessage(playerid, Color::White, "Usage: /my {DDDDDD}[allchat/armour/color/health/hide/(goto/save)loc/maptp]");
+        SendClientMessage(playerid, Color::White, "Usage: /my {DDDDDD}[allchat/armour/(un)freeze/color/health/hide/(goto/save)loc/maptp]");
         SendClientMessage(playerid, Color::White, "Usage: /my {DDDDDD}[messagelevel/resetspawnweapons/weapon/weather/teleport/time]");
     } else if (Player(playerid)->isAdministrator())
         SendClientMessage(playerid, Color::White, "Usage: /my {DDDDDD}[color/resetspawnweapons/teleport/weather/time]");
