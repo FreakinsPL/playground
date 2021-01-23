@@ -136,7 +136,6 @@
   "FINANCE_CONTRIBUTION_WHY": "{FFEB3B}Your hard earned cash helps keep the local San Andreas economy going!",
 
   "FRIENDS_ADDED": "@success %s has been added to your friends list.",
-  "FRIENDS_ERROR_NPC": "@error You can't add Npcs to your friends list :(",
   "FRIENDS_EMPTY": "{FF9900}You haven't added any friends yet!",
   "FRIENDS_ERROR_ADD_SELF": "@error As amazing as we're sure you are, you can't add yourself as a friend.",
   "FRIENDS_ERROR_NOT_REGISTERED": "@error You need to register on https://sa-mp.nl/ to use this command.",
