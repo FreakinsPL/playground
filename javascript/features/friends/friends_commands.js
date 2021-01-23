@@ -39,6 +39,11 @@ export class FriendsCommands {
             player.sendMessage(Message.FRIENDS_ERROR_FRIEND_NOT_REGISTERED, friendPlayer.name);
             return;
         }
+        // Prevent them to add NPCs
+        if (friendPlayer.isNonPlayerCharacter()) {
+            player.sendMessage(Message.FRIENDS_ERROR_NPC);
+            return;
+        }
 
         if (player === friendPlayer) {
             player.sendMessage(Message.FRIENDS_ERROR_ADD_SELF);
