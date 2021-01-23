@@ -523,6 +523,7 @@
   "RADIO_PREFERRED_DISABLED": "You have disabled the in-game radio.",
 
   "REPORT_MESSAGE": "{33AA33}Your report has been delivered to the crew{FFFFFF}: Player: %s (Id:%d) - Reason: %s",
+  "REPORT_ERROR_NPC": "@error You can't report an NPC!",
   "REPORT_ALREADY_REPORTED": "@error We have already received a report about %s and are on it. Thank you!",
 
   "SPAWN_ARMOUR_ACTIVATED": "@success You'll be protected by spawn armour for the next 10 seconds.",
