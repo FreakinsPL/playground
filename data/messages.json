@@ -80,6 +80,7 @@
   "COMMUNICATION_DIAL_REJECTED_RECIPIENT": "{DC143C}[Phone]{FFFFFF} * %s has rejected your phone call.",
   "COMMUNICATION_DIAL_REQUEST": "{DC143C}[Phone]{FFFFFF} * %s is calling you. Respond by using either {DC143C}/answer{FFFFFF} or {DC143C}/reject{FFFFFF}.",
   "COMMUNICATION_DIAL_SELF": "{DC143C}[Phone]{FFFFFF} * You cannot call yourself over the phone, silly billy.",
+  "COMMUNICATION_DIAL_NPC": "{DC143C}[Phone]{FFFFFF} * You cannot call NPCs over the phone, silly billy.",
   "COMMUNICATION_DIAL_WAITING": "{DC143C}[Phone]{FFFFFF} * You are currently dialing %s...",
   "COMMUNICATION_FILTER_BLOCKED": "@error Your message has been blocked because it includes a forbidden word.",
   "COMMUNICATION_IRCPM_ADMIN": "{FF9900}* PM: %s (Id:%d) to %s (IRC):{FFFFFF} %s",
@@ -135,6 +136,7 @@
   "FINANCE_CONTRIBUTION_WHY": "{FFEB3B}Your hard earned cash helps keep the local San Andreas economy going!",
 
   "FRIENDS_ADDED": "@success %s has been added to your friends list.",
+  "FRIENDS_ERROR_NPC": "@error You can't add Npcs to your friends list :(",
   "FRIENDS_EMPTY": "{FF9900}You haven't added any friends yet!",
   "FRIENDS_ERROR_ADD_SELF": "@error As amazing as we're sure you are, you can't add yourself as a friend.",
   "FRIENDS_ERROR_NOT_REGISTERED": "@error You need to register on https://sa-mp.nl/ to use this command.",
@@ -330,6 +332,8 @@
   "HOUSE_WELCOME_MESSAGE": "{10F441}%s says{FFFFFF}: %s",
 
   "IGNORE_ADDED_PLAYER": "@success You won't be seeing communication from %s anymore.",
+  "IGNORE_SELF": "@error You can't ignore yourself silly billy!",
+  "IGNORE_NPC": "@error You can't ignore our beloved bots",
   "IGNORE_ADDED_REDUNDANT": "@error You can't ignore %s twice!",
   "IGNORE_IGNORED_NOBODY": "@error Nobody is being ignored right now.",
   "IGNORE_IGNORED": "{33AA33}Ignored players:{FFFFFF} %s",
@@ -419,6 +423,7 @@
   "MUTE_ADMIN_UNMUTED": "%s (Id:%d) has unmuted %s (Id:%d).",
   "MUTE_ADMIN_UNMUTED_AUTO": "%s (Id:%d) has been unmuted.",
   "MUTE_ADMIN_UNMUTED_IRC": "%s (IRC) has unmuted %s (Id:%d).",
+  "MUTE_NPC": "@error You can't mute our beloved bots",
   "MUTE_MUTED": "@success %s (Id:%d) has been muted for %s.",
   "MUTE_MUTED_NOBODY": "@error Nobody on the server is muted right now.",
   "MUTE_MUTED_LIST": "* {DC143C}%s{FFFFFF} (Id:%d) will be muted for another %s.",
