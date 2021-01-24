@@ -332,7 +332,6 @@
 
   "IGNORE_ADDED_PLAYER": "@success You won't be seeing communication from %s anymore.",
   "IGNORE_SELF": "@error You can't ignore yourself silly billy!",
-  "IGNORE_NPC": "@error You can't ignore our beloved bots",
   "IGNORE_ADDED_REDUNDANT": "@error You can't ignore %s twice!",
   "IGNORE_IGNORED_NOBODY": "@error Nobody is being ignored right now.",
   "IGNORE_IGNORED": "{33AA33}Ignored players:{FFFFFF} %s",
