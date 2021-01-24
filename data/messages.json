@@ -331,7 +331,7 @@
   "HOUSE_WELCOME_MESSAGE": "{10F441}%s says{FFFFFF}: %s",
 
   "IGNORE_ADDED_PLAYER": "@success You won't be seeing communication from %s anymore.",
-  "IGNORE_SELF": "@error You can't ignore yourself silly billy!",
+  "IGNORE_SELF": "@error You can't ignore yourself, silly billy",
   "IGNORE_ADDED_REDUNDANT": "@error You can't ignore %s twice!",
   "IGNORE_IGNORED_NOBODY": "@error Nobody is being ignored right now.",
   "IGNORE_IGNORED": "{33AA33}Ignored players:{FFFFFF} %s",
