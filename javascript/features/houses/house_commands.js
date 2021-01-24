@@ -94,7 +94,7 @@ class HouseCommands {
             player.sendMessage(Message.HOUSE_BUY_NOT_AVAILABLE, location.owner);
             return;
         }
-        // Tell unregisted player to register when they tries to buy a house
+        // Tell the unregisted player to register when they try to buy a house
         if (!player.account.isRegistered()) {
             player.sendMessage(Message.HOUSE_BUY_NOT_REGISTER);
             return;
