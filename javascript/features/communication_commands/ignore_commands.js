@@ -48,11 +48,6 @@ export class IgnoreCommands {
             player.sendMessage(Message.IGNORE_SELF);
             return;
         }
-        // Send error when player tries to ignore our bot :-)
-        if (subject.isNonPlayerCharacter()) {
-           player.sendMessage(Message.IGNORE_NPC);
-           return;
-        }
 
         if (ignored.includes(subject)) {
             player.sendMessage(Message.IGNORE_ADDED_REDUNDANT, subject.name);
