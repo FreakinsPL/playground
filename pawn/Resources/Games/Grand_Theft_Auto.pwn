@@ -75,7 +75,6 @@ CTheft__Initalize() {
     }
 
 	format(message, sizeof(message), "%d %s", GTA_Value, VehicleModel(vehicleModel)->nameString());
-	EchoMessage("merchant", "dz", message);
 }
 
 // Returns a random vehicle that the merchant is interested in. The vehicle must meet a series of
