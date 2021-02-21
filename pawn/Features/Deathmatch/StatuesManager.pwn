@@ -49,10 +49,10 @@ class StatuesManager {
     // Gather all the statues info in one array.
     new m_statueInfo[4][statueDetails] = {
         //    posX        posY     posZ  sModelId  iconId                  mapId   statueId
-        {2845.6782, -2410.4414, 19.1922,     1254,      6,     DynamicMapIcon: 0,        -1}, // Ammo Statue
-        { -689.293,   1538.472,  82.685,     1242,     30,     DynamicMapIcon: 0,        -1}, // Armour Statue
-        {-2870.233,   2803.545, 250.589,     1240,     22,     DynamicMapIcon: 0,        -1}, // Health Statue
-        {-2611.399,  -2851.273,   2.863,     1274,     23,     DynamicMapIcon: 0,        -1}  // Money Statue
+        {2157.2881,   963.3771, 10.8203,     1254,      6,     DynamicMapIcon: 0,        -1}, // Ammo Statue
+        {1088.5408,  1074.3296, 10.8359,     1242,     30,     DynamicMapIcon: 0,        -1}, // Armour Statue
+        {1579.5760,  1768.7635, 10.8203,     1240,     22,     DynamicMapIcon: 0,        -1}, // Health Statue
+        {2438.3457,  2376.2471, 10.8203,     1274,     23,     DynamicMapIcon: 0,        -1}  // Money Statue
     };
 
     /**
